@@ -1,10 +1,12 @@
 # **Objetivo**
 
-Olá, muito prazer, sou o Vinicius! Até o final de 2024, atuei em uma squad de negócios, focado em análise de dados.  Porém, descobri meu interesse em unir a engenharia de software com dados e estou iniciando minha carreira como engenheiro de dados.
+Olá, muito prazer, sou o Vinicius!
+
+Até o final de 2024, atuei em uma squad de negócios, focado em análise de dados.  Porém, descobri meu interesse em unir a engenharia de software com dados e estou iniciando minha carreira como engenheiro de dados!
 
 **O objetivo desse site é documentar todo o processo de aprendizado para me tornar um engenheiro de dados.**
 
-De acordo com o Microsoft Learn, um engenheiros de dados integra, transforma e consolida dados de vários sistemas de dados estruturados e não estruturados em estruturas adequadas para a criação de soluções de análise.
+De acordo com o [Microsoft Learn](https://learn.microsoft.com/pt-br/training/career-paths/data-engineer), um engenheiros de dados integra, transforma e consolida dados de vários sistemas de dados estruturados e não estruturados em estruturas adequadas para a criação de soluções de análise.
 
 Para alcançar esse objetivo, estou estruturando meus estudos com base nos seguintes pilares fundamentais:
 
