@@ -54,10 +54,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-plugins:
-  - search
-  - include-markdown
-
 extra:
   social:
     - icon: simple/github
