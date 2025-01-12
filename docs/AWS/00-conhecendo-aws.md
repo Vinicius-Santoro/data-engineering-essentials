@@ -1,14 +1,14 @@
 # **Cloud AWS**
 
-## **Iniciando com AWS**
+## **Introdução à AWS**
 
-A AWS é um provedor Cloud utilizado globalmente. Sua história resumida se dá por:
+A AWS (Amazon Web Services) é um dos provedores de nuvem mais amplamente utilizados no mundo. Sua trajetória pode ser resumida da seguinte forma:
 
-- 2002: Amazon utilizada sua infraestrutura internamente.
-- 2003: Dado sua infraestrutura excelente, surgiu a ideia de externalizar seus serviços.
-- 2004: Lançaram o AWS SQS para o público.
-- 2006: Expandiram a oferta com o S3 e EC2 para o público.
-- Atualmente: Principal provedor cloud.
+- 2002: A Amazon começou a usar sua infraestrutura de nuvem internamente.
+- 2003: Com o sucesso de sua infraestrutura, surgiu a ideia de oferecer seus serviços ao mercado.
+- 2004: Foi lançado o AWS SQS (Simple Queue Service), marcando o início da oferta de serviços para o público.
+- 2006: A AWS expandiu sua oferta com o lançamento do S3 (Simple Storage Service) e EC2 (Elastic Compute Cloud).
+- Atualmente: A AWS é líder global entre os provedores de nuvem, atendendo a milhões de clientes em diversos setores.
 
 ## **Infraestrutura Global da AWS**
 
