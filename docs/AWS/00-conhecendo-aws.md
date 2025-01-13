@@ -62,4 +62,3 @@ latência, garantindo desempenho mais rápido e eficiente.
   ![Serviços AWS](../assets/aws-services-edit.png){ width="800" }
   <!-- <figcaption>Serviços AWS cobrados no exame AWS Developer Associate</figcaption> -->
 </figure>
-
