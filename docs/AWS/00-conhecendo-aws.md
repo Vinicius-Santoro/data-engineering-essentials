@@ -16,7 +16,7 @@ A AWS (Amazon Web Services) é um dos provedores de nuvem mais utilizados no mun
 As regiões da AWS são locais físicos onde a AWS opera clusters de data centers,
 identificadas por nomes como **us-east-1** e **eu-west-3**.
 
-!!! question "Pergunta"
+!!! tip "Dica"
 
     Ao escolher uma região para lançar um aplicativo, por exemplo, deve ser
     considerado os seguintes fatores:
@@ -29,8 +29,11 @@ identificadas por nomes como **us-east-1** e **eu-west-3**.
     - Preços: Os custos variam entre regiões e podem ser consultados na página de
     preços dos serviços.
 
-### AWS Zonas de Disponibilidadae
+### AWS Zonas de Disponibilidade
 
+<!-- ![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ width="300" height="300" .shadow} -->
+
+![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ align=right width="300" .shadow}
 Cada região da AWS possui de 3 a 6 Zonas de Disponibilidade (Availability Zones).
 Cada zona é composta por um ou mais data centers, projetados com redundância em
 energia, rede e conectividade.
@@ -39,13 +42,6 @@ Essa estrutura garante alta disponibilidade e resiliência: se uma zona de
 disponibilidade for afetada por um desastre natural, a aplicação permanece
 operacional devido à redundância da infraestrutura física.
 
-<!-- ![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ width="300" height="300" .shadow} -->
-
-<figure markdown="span">
-  ![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ width="400" height="400" }
-  <figcaption>Zonas de Disponibilidade AWS</figcaption>
-</figure>
-
 ### AWS Edge Locations / Points of Presence
 
 A AWS possui mais de 400 Points of Presence, compostos por Edge Locations e
@@ -53,3 +49,17 @@ Regional Caches, distribuídos em mais de 90 cidades e 40 países.
 
 Esses pontos permitem a entrega de conteúdo aos usuários finais com menor
 latência, garantindo desempenho mais rápido e eficiente.
+
+### Serviços AWS que serão abordados
+
+!!! info "Informação"
+
+    Esta documentação aborda exclusivamente os serviços da AWS cobrados no exame **AWS Certified Developer – Associate.**
+    A imagem abaixo apresenta todos os serviços que serão explorados ao longo deste material.
+
+
+<figure markdown="span">
+  ![Serviços AWS](../assets/aws-services-edit.png){ width="800" }
+  <!-- <figcaption>Serviços AWS cobrados no exame AWS Developer Associate</figcaption> -->
+</figure>
+
