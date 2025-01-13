@@ -16,7 +16,7 @@ A AWS (Amazon Web Services) é um dos provedores de nuvem mais utilizados no mun
 As regiões da AWS são locais físicos onde a AWS opera clusters de data centers,
 identificadas por nomes como **us-east-1** e **eu-west-3**.
 
-!!! question
+!!! question "Pergunta"
 
     Ao escolher uma região para lançar um aplicativo, por exemplo, deve ser
     considerado os seguintes fatores:
@@ -39,7 +39,14 @@ Essa estrutura garante alta disponibilidade e resiliência: se uma zona de
 disponibilidade for afetada por um desastre natural, a aplicação permanece
 operacional devido à redundância da infraestrutura física.
 
-<img src="./assets/aws-azs.png" alt="Exemplo: AWS Zona de Disponibilidade" width="40" height="40"/> 
+<!-- ![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ width="300" height="300" .shadow} -->
+
+<figure markdown="span">
+  ![Zonas de Disponibilidade AWS](../assets/aws-azs.png){ width="400" height="400" }
+  <figcaption>Zonas de Disponibilidade AWS</figcaption>
+</figure>
+
+
 
 ### AWS Edge Locations / Points of Presence
 
