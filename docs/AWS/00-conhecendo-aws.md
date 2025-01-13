@@ -2,7 +2,7 @@
 
 ## **Introdução à AWS**
 
-A AWS (Amazon Web Services) é um dos provedores de nuvem mais amplamente utilizados no mundo. Sua trajetória pode ser resumida da seguinte forma:
+A AWS (Amazon Web Services) é um dos provedores de nuvem mais utilizados no mundo. Sua trajetória pode ser resumida da seguinte forma:
 
 - 2002: A Amazon começou a usar sua infraestrutura de nuvem internamente.
 - 2003: Com o sucesso de sua infraestrutura, surgiu a ideia de oferecer seus serviços ao mercado.
@@ -16,7 +16,7 @@ A AWS (Amazon Web Services) é um dos provedores de nuvem mais amplamente utiliz
 As regiões da AWS são locais físicos onde a AWS opera clusters de data centers,
 identificadas por nomes como **us-east-1** e **eu-west-3**.
 
-!!! question inline end "Possíveis Pergunta"
+!!! question
 
     Ao escolher uma região para lançar um aplicativo, por exemplo, deve ser
     considerado os seguintes fatores:
