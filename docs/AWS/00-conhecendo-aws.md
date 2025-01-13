@@ -46,8 +46,6 @@ operacional devido à redundância da infraestrutura física.
   <figcaption>Zonas de Disponibilidade AWS</figcaption>
 </figure>
 
-
-
 ### AWS Edge Locations / Points of Presence
 
 A AWS possui mais de 400 Points of Presence, compostos por Edge Locations e
