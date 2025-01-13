@@ -16,16 +16,18 @@ A AWS (Amazon Web Services) é um dos provedores de nuvem mais amplamente utiliz
 As regiões da AWS são locais físicos onde a AWS opera clusters de data centers,
 identificadas por nomes como **us-east-1** e **eu-west-3**.
 
-Ao escolher uma região para lançar um aplicativo, por exemplo, deve ser
-considerado os seguintes fatores:
+!!! question inline end "Possíveis Pergunta"
 
-- Conformidade legal e governança de dados: Os dados não saem da região sem sua
-permissão explícita.
-- Proximidade dos clientes: Menor latência ao acessar os serviços.
-- Serviços disponíveis na região: Nem todos os serviços e recursos estão
-disponíveis em todas as regiões.
-- Preços: Os custos variam entre regiões e podem ser consultados na página de
-preços dos serviços.
+    Ao escolher uma região para lançar um aplicativo, por exemplo, deve ser
+    considerado os seguintes fatores:
+
+    - Conformidade legal e governança de dados: Os dados não saem da região sem sua
+    permissão explícita.
+    - Proximidade dos clientes: Menor latência ao acessar os serviços.
+    - Serviços disponíveis na região: Nem todos os serviços e recursos estão
+    disponíveis em todas as regiões.
+    - Preços: Os custos variam entre regiões e podem ser consultados na página de
+    preços dos serviços.
 
 ### AWS Zonas de Disponibilidadae
 
