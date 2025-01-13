@@ -56,9 +56,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-plugins:
-  - glightbox
-
 extra:
   social:
     - icon: simple/github
