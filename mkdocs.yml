@@ -58,9 +58,9 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/github
+    - icon: fontawesome/github
       link: https://github.com/Vinicius-Santoro
-    - icon: simple/linkedin
+    - icon: fontawesome/linkedin
       link: https://www.linkedin.com/in/viniciusrio/
 
 copyright: Copyright &copy; 2024 Vinicius Naziozeno Santoro do Rio
