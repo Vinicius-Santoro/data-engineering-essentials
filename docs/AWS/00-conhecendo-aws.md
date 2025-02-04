@@ -1,4 +1,4 @@
-# **Cloud AWS**
+# **AWS Cloud**
 
 ## **Introdução à AWS**
 
