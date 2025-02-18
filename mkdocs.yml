@@ -22,17 +22,6 @@ theme:
       primary: deep orange
       accent: indigo
 
-fonts:
-  icon: material/format-font
-  preferences:
-    - text: Default
-    - text: Roboto
-      code: Roboto Mono
-    - text: OpenDyslexic
-      code: OpenDyslexicMono
-      src: https://fonts.cdnfonts.com/css/opendyslexic
-
-
 markdown_extensions:
   - attr_list
   - md_in_html

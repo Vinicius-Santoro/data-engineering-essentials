@@ -1,31 +1,31 @@
-## **Objetivo**
+## **Objective**
 
-Olá, muito prazer, sou o Vinicius!
+Hello, nice to meet you, I'm Vinicius!
 
-Até o final de 2024, atuei em uma squad de negócios, focado em análise de dados.  Porém, descobri meu interesse em unir a engenharia de software com dados e estou iniciando minha carreira como engenheiro de dados!
+Until the end of 2024, I worked in a business squad, focused on data analysis.  However, I discovered my interest in combining software engineering with data and I am starting my career as a data engineer!
 
-**O objetivo desse site é documentar todo o processo de aprendizado para me tornar um engenheiro de dados.**
+**The purpose of this site is to document my learning process to become a data engineer.**
 
-De acordo com o [Microsoft Learn](https://learn.microsoft.com/pt-br/training/career-paths/data-engineer), um engenheiros de dados integra, transforma e consolida dados de vários sistemas de dados estruturados e não estruturados em estruturas adequadas para a criação de soluções de análise.
+According to [Microsoft Learn](https://learn.microsoft.com/pt-br/training/career-paths/data-engineer), a data engineer integrates, transforms, and consolidates data from multiple structured and unstructured data systems into structures suitable for creating analytics solutions.
 
-Para alcançar esse objetivo, estou estruturando meus estudos com base nos seguintes pilares fundamentais:
+To achieve this goal, I am structuring my studies based on the following fundamental pillars:
 
 - Cloud AWS.
 - Big Data.
-- Banco de dados.
-- Programação.
+- Database.
+- Schedule.
 - Devops.
-- Arquiteturas de dados.
+- Data architectures.
 
-## **Sobre mim**
+## **About me**
 
-- 💻 2021: Conheci a formação em Engenharia de Software da [École 42](https://42.fr/en/homepage/).
-- 📚 2022: Ingressei no curso de Ciência de Dados na FATEC.
-- 💼 2023: Entrei como estagiário no Itaú Unibanco.
-- 🎯 2024: Fui efetivado como Analista de Dados.
-- 🚀 2025: Descobri meu interesse em unir engenharia de software e dados e estou iniciando minha carreira como Engenheiro de Dados.
-- ✍️ Publiquei dois artigos Itaú Tech:
-	- [A jornada de dados no Itaú Unibanco: modelagem e engenharia de dados e analytics](https://medium.com/itautech/a-jornada-de-dados-no-ita%C3%BA-unibanco-modelagem-e-engenharia-de-dados-e-analytics-6dfd9e5d66cc).
-	- [A jornada de dados no Itaú Unibanco: ciência de dados e engenharia de machine learning](https://medium.com/itautech/a-jornada-de-dados-no-ita%C3%BA-unibanco-ci%C3%AAncia-de-dados-e-engenharia-de-machine-learning-d15311dbf38e).
-- 🎙️ Fui convidado para o podcast Data Hackers! Participei do [episódio ##88: Jornada de Engenharia de Dados e Analytics no Itaú](https://medium.com/data-hackers/jornada-de-engenharia-de-dados-e-analytics-no-ita%C3%BA-data-hackers-podcast-88-5518d40f2b38).
-- 🏆 Meu time venceu a [Batalha de Dados do Itaú Unibanco](https://www.linkedin.com/posts/viniciusrio_vencedores-da-batalha-de-dados-do-ita%C3%BA-unibanco-activity-7224895881529974784-CuUD?utm_source=share&utm_medium=member_desktop).
+- 💻 2021: I discovered the training in Software Engineering at [École 42](https://42.fr/en/homepage/).
+- 📚 2022: I joined the Data Science course at FATEC.
+- 💼 2023: I joined Itaú Unibanco as an intern.
+- 🎯 2024: I was hired as a Data Analyst.
+- 🚀 2025: I discovered my interest in combining software engineering and data and I am starting my career as a Data Engineer.
+- ✍️ I published two Itaú Tech articles:
+	- [The data journey at Itaú Unibanco: modeling and data engineering and analytics](https://medium.com/itautech/a-jornada-de-dados-no-ita%C3%BA-unibanco-modelagem-e-engenharia-de-dados-e-analytics-6dfd9e5d66cc).
+	- [The data journey at Itaú Unibanco: data science and machine learning engineering](https://medium.com/itautech/a-jornada-de-dados-no-ita%C3%BA-unibanco-ci%C3%AAncia-de-dados-e-engenharia-de-machine-learning-d15311dbf38e).
+- 🎙️ I was invited to the Data Hackers podcast! I participated in [episode ##88: Data Engineering and Analytics Journey at Itaú](https://medium.com/data-hackers/jornada-de-engenharia-de-dados-e-analytics-no-ita%C3%BA-data-hackers-podcast-88-5518d40f2b38).
+- 🏆 My team won the [Itaú Unibanco Data Battle](https://www.linkedin.com/posts/viniciusrio_vencedores-da-batalha-de-dados-do-ita%C3%BA-unibanco-activity-7224895881529974784-CuUD?utm_source=share&utm_medium=member_desktop).
