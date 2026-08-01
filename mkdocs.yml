@@ -78,4 +78,5 @@ nav:
   - 03. Amostragem e Intervalo de Confiança: 003_amostragem_ic.ipynb
   - 04. Probabilidade e Distribuições: 004_probabilidade_e_distribuicoes.ipynb
   - 05. Regressão Linear Simples: 005_regressao_linear_simples.ipynb
-  - 06 Regressão Linear Simples: 006_logica.md
+  - 06. Regressão Linear Simples: 006_logica.md
+  - 07. prompts: 007_iai.md
