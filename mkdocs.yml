@@ -1,82 +1,147 @@
-site_name: Data Lab
-site_description: Documentação pública dos meus estudos e aplicações práticas em ciência de dados
-site_url: https://vinicius-rio.github.io/data-lab
+site_name: Santoro Data Lab — Ciência de Dados 80/20
+site_description: Guia prático para aprender, revisar e implementar o núcleo de Ciência de Dados.
+site_author: Santoro Data Lab
+repo_name: santoro-data-lab
 
 theme:
   name: material
   language: pt-BR
   features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
-    - toc.follow
+    - content.code.annotate
+    - content.tabs.link
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: black
-      accent: blue
+      accent: deep purple
       toggle:
         icon: material/weather-night
-        name: Alternar para modo escuro
-    - scheme: slate
+        name: Usar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
-      accent: blue
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
-        name: Alternar para modo claro
+        name: Usar tema claro
+  icon:
+    logo: material/chart-box-outline
+    repo: fontawesome/brands/github
 
 plugins:
-  - search
-  - mkdocs-jupyter:
-      include_source: true
-      execute: false
-      ignore_h1_titles: false
-      allow_errors: false
-      show_input: true
-      no_input: false
-      remove_tag_config:
-        remove_cell_tags:
-          - remove-cell
-        remove_all_outputs_tags:
-          - remove-output
-        remove_input_tags:
-          - remove-input
-        remove_single_output_tags:
-          - remove-single-output
+  - search:
+      lang: pt
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
-  - footnotes
-  - tables
   - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
-extra_css:
-  - stylesheets/extra.css
-
 nav:
-  - Início: index.md
-  - 01. CRISP-DM e Métricas Utilizadas: 001_crisp_dm.md
-  - 02. Análise Exploratória de Dados: 002_eda.ipynb
-  - 03. Amostragem e Intervalo de Confiança: 003_amostragem_ic.ipynb
-  - 04. Probabilidade e Distribuições: 004_probabilidade_e_distribuicoes.ipynb
-  - 05. Regressão Linear Simples: 005_regressao_linear_simples.ipynb
-  - 06. Regressão Linear Simples: 006_logica.md
-  - 07. prompts: 007_iai.md
+  - Início:
+      - Visão geral: index.md
+      - Como estudar este material: plano-80-20.md
+  - Fundamentos:
+      - O mapa de Machine Learning: fundamentos/01-mapa-ml.md
+      - Classificação, regressão e features: fundamentos/02-problemas-supervisionados.md
+      - Treino, validação e teste: fundamentos/03-split-generalizacao.md
+      - Overfitting, underfitting e bias-variance: fundamentos/04-bias-variance.md
+      - Pipeline mental de um projeto: fundamentos/05-pipeline-mental.md
+  - Preparação dos dados:
+      - Data leakage: preprocessamento/01-data-leakage.md
+      - Missing values e encoding: preprocessamento/02-missing-encoding.md
+      - Scaling e transformações: preprocessamento/03-scaling.md
+      - Pipeline e ColumnTransformer: preprocessamento/04-pipelines.md
+  - Regressão:
+      - Regressão Linear: regressao/01-regressao-linear.md
+      - Decision Tree Regressor: regressao/02-arvore-regressao.md
+      - Random Forest Regressor: regressao/03-random-forest.md
+      - Gradient Boosting: regressao/04-gradient-boosting.md
+      - SVR e KNN Regressor: regressao/05-svr-knn.md
+  - Classificação:
+      - Regressão Logística: classificacao/01-regressao-logistica.md
+      - KNN: classificacao/02-knn.md
+      - Decision Tree: classificacao/03-decision-tree.md
+      - Random Forest: classificacao/04-random-forest.md
+      - SVM: classificacao/05-svm.md
+      - Naive Bayes: classificacao/06-naive-bayes.md
+  - Avaliação e seleção:
+      - Métricas de regressão: avaliacao/01-metricas-regressao.md
+      - Matriz de confusão: avaliacao/02-matriz-confusao.md
+      - Precision, Recall e F1: avaliacao/03-precision-recall-f1.md
+      - ROC-AUC, PR-AUC e threshold: avaliacao/04-roc-pr-threshold.md
+      - Cross-validation: avaliacao/05-cross-validation.md
+      - Grid Search e tuning: avaliacao/06-tuning.md
+      - Feature selection e SHAP: avaliacao/07-feature-selection-shap.md
+      - Causalidade vs predição: avaliacao/08-causalidade.md
+  - Não supervisionado:
+      - O mapa de clustering: nao-supervisionado/01-mapa-clustering.md
+      - K-Means e K-Medoids: nao-supervisionado/02-kmeans-kmedoids.md
+      - DBSCAN e clustering hierárquico: nao-supervisionado/03-dbscan-hierarquico.md
+      - PCA: nao-supervisionado/04-pca.md
+      - SVD, Kernel PCA e t-SNE: nao-supervisionado/05-outras-reducoes.md
+  - Séries temporais:
+      - Fundamentos: series-temporais/01-fundamentos.md
+      - Validação e feature engineering: series-temporais/02-validacao-features.md
+      - ARIMA, SARIMA e SARIMAX: series-temporais/03-arima.md
+      - Holt-Winters e ML: series-temporais/04-holt-winters-ml.md
+  - Aprendizado por reforço:
+      - Fundamentos: reforco/01-fundamentos.md
+      - Value-based, policy-based e PPO: reforco/02-value-policy.md
+  - Laboratórios:
+      - Classificação ponta a ponta: pratica/01-lab-classificacao.md
+      - Regressão ponta a ponta: pratica/02-lab-regressao.md
+      - Clustering e PCA: pratica/03-lab-clustering.md
+      - Série temporal: pratica/04-lab-series.md
+      - Checklist de projeto: pratica/05-checklist-projeto.md
+  - Revisão:
+      - Perguntas para Anki: anki/perguntas.md
+      - Cheat sheet: anki/cheat-sheet.md
+      - Referências: referencias.md

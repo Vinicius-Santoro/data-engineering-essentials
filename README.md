@@ -1,30 +1,24 @@
-## **👨‍💻 Sobre este projeto**
+# Santoro Data Lab — Ciência de Dados 80/20
 
-Esta documentação reúne meus estudos e aplicações práticas em ciência de dados.
+Base de estudo construída em Material for MkDocs para aprender, praticar e revisar o núcleo de Ciência de Dados.
 
-## Estrutura
+## Rodando localmente
 
-- CRISP-DM e métricas utilizadas
-- Estatística inferencial aplicada a NPS
-- Testes de hipótese
-- A/B testing
-
-## Autor
-
-Vinicius Naziozeno Santoro do Rio
-
-## Data
-
-Abril de 2026.
-
-## **ℹ️ Informações**
-
-- Como rodar localmente:
-
-```
-python3.12 -m mkdocs serve
+```bash
+python -m venv .venv
+source .venv/Scripts/activate   # Git Bash / Windows
+pip install -r requirements-docs.txt
+mkdocs serve
 ```
 
-- Link do site:
+Abra `http://127.0.0.1:8000`.
 
-https://vinicius-rio.github.io/data-lab/
+## Build
+
+```bash
+mkdocs build --strict
+```
+
+## Publicação no GitHub Pages
+
+O workflow em `.github/workflows/ci.yml` publica automaticamente a branch `main` via `mkdocs gh-deploy`.
